@@ -4,22 +4,20 @@ import "./navbar.css";
 export function NavBar() {
 
     return (
-
-        
+        <div>
         <div class = "container">
             <div>
-            <img src="/images/shrimpPic.png" alt="shrimp" width="35" height="35"/>
+            <img src="/images/shrimpPic.png" alt="shrimp"/>
 
             <h3 class = "rgLogo">
                 RG
             </h3>
-            
-            </div>
-            
-        </div>
-        
 
-        
+            </div>
+
+        </div>
+        </div>
+
     );
 
 }
