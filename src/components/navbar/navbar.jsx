@@ -5,7 +5,7 @@ import ReactDOM from "react-dom";
 export function NavBar() {
     return (
         <div>
-            <img src="../images/shrimpPic.png"> </img>
+            {/* <img src="../images/shrimpPic.png"> </img> */}
             <h3>
                 RG
             </h3>
