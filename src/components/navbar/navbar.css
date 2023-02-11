@@ -1,0 +1,14 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .rgLogo {
+    color: #F09300;
+    float: right;
+    display: flex;
+    margin-top: 5%;
+    vertical-align: middle;
+    justify-content: center;
+  }
