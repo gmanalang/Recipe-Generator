@@ -1,0 +1,34 @@
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.left-section {
+    vertical-align: middle;
+}
+
+img {
+    width: 40%;
+}
+
+button {
+    background-color: #F09300;
+    color: white;
+    font-size: 15px;
+    border: none;
+    border-radius: 10px;
+    height: 50px;
+    width: 150px;
+    margin-top: 50px;
+}
+
+h1 {
+    color: #F09300;
+    font-size: 80px;
+    line-height: 80px;
+}
+
+.contributors {
+    margin-left: 5%;
+}
