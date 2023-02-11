@@ -8,3 +8,23 @@
     color: rgb(255, 255, 255);
     padding: 20px;
 }
+
+.header {
+    padding: 0.5%;
+    width: 20%;
+    height: 100%;
+    float: left;
+    margin-left: 20px;
+    display: inline-block;
+}
+
+.navigation {
+    padding: 2.5%;
+    width: 50%;
+    height: 90%;
+    float: left;
+    display: inline-block;
+    justify-content: space-between;
+    text-align: right;
+    margin-left: 250px;
+}
