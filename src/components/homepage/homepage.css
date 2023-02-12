@@ -10,6 +10,44 @@
     width: 80%;
 }
 
+img {
+    width: 40%;
+}
+
+button {
+    background-color: #F09300;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    height: 50px;
+    width: 150px;
+    margin-top: 50px;
+}
+
+button:hover{
+    background-color: #ffc15c;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    height: 50px;
+    width: 150px;
+    margin-top: 50px;
+    cursor: url("/images/shrimpCursor.png"), pointer;
+}
+
+button:active{
+    background-color: #da7902;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    height: 50px;
+    width: 150px;
+    margin-top: 50px;
+}
+
 .homepage-title {
     color: #F09300;
     font-size: 7vw;
