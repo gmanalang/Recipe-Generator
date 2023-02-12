@@ -34,7 +34,7 @@ button {
 button:hover{
     background-color: #ffc15c;
     color: white;
-    font-size: 15px;
+    font-size: 18px;
     border: none;
     border-radius: 10px;
     height: 50px;
@@ -45,7 +45,7 @@ button:hover{
 button:active{
     background-color: #da7902;
     color: white;
-    font-size: 15px;
+    font-size: 18px;
     border: none;
     border-radius: 10px;
     height: 50px;
