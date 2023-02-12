@@ -1,6 +1,6 @@
-import React from 'react';
+import React from "react";
 
-const RecipeList = ({title, cuisineType, image, ingredients}) => {
+export function RecipeList({title, cuisineType, image, ingredients}) {
     return(
         <div className>
             <h1>{title}</h1>
@@ -15,5 +15,3 @@ const RecipeList = ({title, cuisineType, image, ingredients}) => {
         </div>
     );
 };
-
-export default RecipeList;
