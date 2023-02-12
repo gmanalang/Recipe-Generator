@@ -10,7 +10,7 @@ export function HomePage({
       <NavBar />
       <div className="flex">
         <div className="left-section">
-          <h1>
+          <h1 className="homepage-title">
             Recipe<br></br>Generator
           </h1>
           <p>

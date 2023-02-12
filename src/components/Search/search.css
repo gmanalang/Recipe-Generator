@@ -1,0 +1,25 @@
+.card{
+    border-style: solid;
+    border-color: #ffc66b;
+}
+
+.image{
+    float: right;
+}
+
+.flex {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1{
+    font-size: 5vw;
+}
+
+.ingredients{
+    font-size: 2vw;
+    color: #F09300;
+}

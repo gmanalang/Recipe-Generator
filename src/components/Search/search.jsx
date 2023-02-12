@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { RecipeList } from "./recipeList";
+import "./search.css";
 
 export function Search() {
     const APP_ID = "309b7c52";
@@ -33,6 +34,9 @@ export function Search() {
     return (
         <div className="Search">
             <form onSubmit={getSearch} className="Search Bar">
+                <p>
+                    Search for an ingredient or multiple ingredients separated by commas!
+                </p>
                 <input className="searchBar" type="text" value={search} onChange={newSearch}></input>
                 <button className="searchButton" type="submit">Search</button>
             </form>
