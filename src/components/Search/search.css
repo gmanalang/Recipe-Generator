@@ -15,11 +15,68 @@
     justify-content: space-between;
 }
 
-h1{
+.title {
     font-size: 5vw;
+    color: #59b7d6;
 }
 
-.ingredients{
+.ingredients {
     font-size: 2vw;
     color: #F09300;
+}
+
+.directions {
+    margin: 0 auto;
+    margin-top: 50px;
+    width: fit-content;
+}
+
+.input-and-button {
+    width: fit-content;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+input {
+    width: 60vw;
+    height: 50px;
+    margin-right: 10px;
+    padding-left: 15px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+
+.button {
+    background-color: #F09300;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    height: 50px;
+    width: 150px;
+}
+
+.button:hover{
+    background-color: #ffc15c;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    height: 50px;
+    width: 150px;
+}
+
+.button:active{
+    background-color: #da7902;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    height: 50px;
+    width: 150px;
 }
