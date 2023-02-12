@@ -1,11 +1,19 @@
 .flex {
+    width: 80%;
+    margin: 0 auto;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
-.left-section {
-    vertical-align: middle;
+h1 {
+    color: #F09300;
+    font-size: 7vw;
+    line-height: 7vw;
+}
+
+.left-section p {
+    width: 80%;
 }
 
 img {
@@ -15,7 +23,7 @@ img {
 button {
     background-color: #F09300;
     color: white;
-    font-size: 15px;
+    font-size: 18px;
     border: none;
     border-radius: 10px;
     height: 50px;
@@ -23,12 +31,7 @@ button {
     margin-top: 50px;
 }
 
-h1 {
-    color: #F09300;
-    font-size: 80px;
-    line-height: 80px;
-}
-
 .contributors {
-    margin-left: 5%;
+    width: 80%;
+    margin: 100px auto;
 }
