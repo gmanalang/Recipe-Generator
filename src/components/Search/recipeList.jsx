@@ -8,7 +8,7 @@ export function RecipeList({ title, cuisineType, image, ingredients }) {
       <div className="card">
         <div class="flex">
           <div>
-            <h1>{title}</h1>
+            <h1 className="title">{title}</h1>
             <h1 className="ingredients">Ingredients</h1>
             <ol>
               {ingredients.map((ingredient) => (

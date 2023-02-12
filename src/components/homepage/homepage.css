@@ -6,12 +6,6 @@
     justify-content: space-between;
 }
 
-h1 {
-    color: #F09300;
-    font-size: 7vw;
-    line-height: 7vw;
-}
-
 .left-section p {
     width: 80%;
 }
@@ -56,14 +50,48 @@ button:active{
 
 .homepage-title {
     color: #F09300;
-    font-size: 80px;
-    line-height: 80px;
+    font-size: 7vw;
+    line-height: 7vw;
     background: linear-gradient(-45deg, #F09300, #59b7d6, #fc8937, #e4771e);
     background-size: 300%;
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: nameAnimation 3s ease-in-out infinite;
+}
+
+img {
+    width: 40%;
+}
+
+.large-img {
+    animation: MoveUpDown 2s ease-in-out infinite;
+    position: relative;
+    left: 0;
+    bottom: 0;
+}
+
+@keyframes MoveUpDown {
+    0%, 100% {
+      bottom: 0;
+    }
+    50% {
+      bottom: 20px;
+    }
+  }
+
+.get-started-button {
+    margin-top: 50px;
+}
+
+.get-started-button:hover{
+    background-color: #ffc15c;
+    margin-top: 50px;
+}
+
+.get-started-button:active{
+    background-color: #da7902;
+    margin-top: 50px;
 }
 
 @keyframes nameAnimation {
@@ -79,8 +107,11 @@ button:active{
         background-position: 0px 50%;
     }
 }
-
 .contributors {
-    width: 80%;
-    margin: 100px auto;
+    font-size: 12px;
+    color: rgba(89, 89, 89, 1);
+    text-align: center;
+    position: fixed;
+    bottom: 20px;
+    width: 100%;
 }

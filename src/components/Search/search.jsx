@@ -1,8 +1,11 @@
 import React, { useEffect, useState } from "react";
 import { RecipeList } from "./recipeList";
+import { NavBar } from "../navbar/navbar";
 import "./search.css";
 
-export function Search() {
+export function Search({
+    showHomePage
+}) {
     const APP_ID = "309b7c52";
     const APP_KEY = "b44b40d133ac07a077f1789e140476a0";
     const [recipes, findRecipes] = useState([]);
@@ -32,15 +35,18 @@ export function Search() {
     }
 
     return (
-        <div className="Search">
+        <div>
+            <NavBar showHomePage={showHomePage}/>
             <form onSubmit={getSearch} className="Search Bar">
-                <p>
+                <p className="directions">
                     Search for an ingredient or multiple ingredients separated by commas!
                 </p>
-                <input className="searchBar" type="text" value={search} onChange={newSearch}></input>
-                <button className="searchButton" type="submit">Search</button>
+                <div className="input-and-button">
+                    <input type="text" value={search} onChange={newSearch} placeholder="Ex: milk, eggs"></input>
+                    <button className="button" type="submit">Search</button>
+                </div>
             </form>
-            <div className="Recipes List">
+            <div>
                 {recipes.map(recipeList => (
                     <RecipeList
                         key={recipeList.recipe.label}

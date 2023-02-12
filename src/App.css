@@ -5,3 +5,14 @@
 html {
     background-color: #FFFBF5;
 }
+
+button {
+    color: white;
+    background-color: #F09300;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    height: 50px;
+    width: 150px;
+    cursor: pointer;
+}

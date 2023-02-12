@@ -3,11 +3,12 @@ import { NavBar } from "../navbar/navbar";
 import "./homepage.css";
 
 export function HomePage({
-    toggleShowHomePage
+    toggleShowHomePage,
+    setShowHomePage
 }) {
   return (
     <div>
-      <NavBar />
+      <NavBar toggleShowHomePage={()=>setShowHomePage(true)}/>
       <div className="flex">
         <div className="left-section">
           <h1 className="homepage-title">
@@ -16,14 +17,16 @@ export function HomePage({
           <p>
             Input the ingredients you have and see what recipes you can make!
           </p>
-          <button onClick={toggleShowHomePage}>Get Started</button>
+          <button className="get-started-button" onClick={toggleShowHomePage}>Get Started</button>
         </div>
-        <img src="../../images/largeImage.png" />
+        <img className="large-img" src="../../images/largeImage.png" />
       </div>
-      <p className="contributors">
-        Contributors: Michelle Wilfred, Helen Miao, Angela Zheng, Gabe
-        Manalang
-      </p>
+      <div class="contributors-div">
+        <p className="contributors">
+          Contributors: Michelle Wilfred, Helen Miao, Angela Zheng, Gabe
+          Manalang
+        </p>
+      </div>
     </div>
   );
 }

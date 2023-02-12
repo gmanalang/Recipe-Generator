@@ -10,6 +10,9 @@
   float: left;
   display: flex;
   margin-top: 7%;
-  /* vertical-align: middle;
-  justify-content: center; */
+  cursor: pointer;
+}
+
+.logo-img {
+  cursor: pointer;
 }
