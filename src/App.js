@@ -1,15 +1,15 @@
-import React from 'react';
-import { ReactDOM } from 'react';
+import React, { useState } from 'react';
 import './App.css';
-import { NavBar } from './components/navbar/navbar.jsx'
 import { HomePage } from './components/homepage/homepage';
+import { RecipeGenerator } from './components/recipeGenerator/recipeGenerator';
+
 function App() {
-  return (
-    <div className='parent'>
-      <NavBar></NavBar>
-      <HomePage></HomePage>
-    </div>
-  )
+  const [ showHomePage, setShowHomePage ] = useState(true);
+
+  if (showHomePage) {
+    return <HomePage toggleShowHomePage={()=>setShowHomePage(!showHomePage)}/>
+  }
+  return <RecipeGenerator/>
 }
 
 export default App;
