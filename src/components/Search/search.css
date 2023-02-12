@@ -1,10 +1,19 @@
 .card{
     border-style: solid;
-    border-color: #ffc66b;
+    border-radius: 18px;
+    background: #fff1d9;
+    border-color: #ffeed1;
+    box-shadow: 5px 10px 20px #e2c799;
+    padding: 5%;
+    margin: 3%;
 }
 
 .image{
     float: right;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #ffeed1;
+    box-shadow: 5px 10px 20px #ffdea2;
 }
 
 .flex {
@@ -16,10 +25,24 @@
 }
 
 h1{
-    font-size: 5vw;
+    font-size: 4vw;
+    margin-bottom: -20px;
+    line-height: 75px;
+}
+
+ol{
+    color:#603b00;
+    width: 65%;
+}
+
+.cuisine{
+    color:#014d76;
+    text-transform: capitalize;
 }
 
 .ingredients{
     font-size: 2vw;
-    color: #F09300;
+    color: #a66600;
+    margin-bottom: -17px;
+    
 }

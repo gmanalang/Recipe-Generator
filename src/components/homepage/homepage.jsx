@@ -21,7 +21,7 @@ export function HomePage({
         <img src="../../images/largeImage.png" />
       </div>
       <p className="contributors">
-        Contributors: Michelle Wilfred, Helen Miao, Angela Zheng, Aahil, Gabe
+        Contributors: Michelle Wilfred, Helen Miao, Angela Zheng, Gabe
         Manalang
       </p>
     </div>
