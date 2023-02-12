@@ -1,6 +1,6 @@
 import React from 'react';
 
-const RecipeList = ({title, time, cuisineType, image, ingredients}) => {
+const RecipeList = ({title, cuisineType, image, ingredients}) => {
     return(
         <div className>
             <h1>{title}</h1>
@@ -12,7 +12,6 @@ const RecipeList = ({title, time, cuisineType, image, ingredients}) => {
             </ol>
             <img src={image} alt=""/>
             <p>Cuisine: {cuisineType}</p>
-            <p>Time: {time}</p>
         </div>
     );
 };

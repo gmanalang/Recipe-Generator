@@ -2,7 +2,7 @@ import React, {useEffect, useState} from "react";
 import RecipeList from "./Recipe"
 import './App.css';
 
-const App = () => {
+function App() {
 const APP_ID = "309b7c52";
 const APP_KEY = "b44b40d133ac07a077f1789e140476a0";
 const [recipes, findRecipes] = useState([]);
